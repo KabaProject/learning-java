@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81c2bafa-2d30-46a7-a825-e6b7726fa28f" name="Changes" comment="User Input with Scanners">
+    <list default="true" id="81c2bafa-2d30-46a7-a825-e6b7726fa28f" name="Changes" comment="GUI Intro">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kabaproject/learningjava/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kabaproject/learningjava/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656399018741</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="GUI Intro">
+      <created>1656400204305</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656400204305</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic Data Types" />
     <MESSAGE value="User Input with Scanners" />
-    <option name="LAST_COMMIT_MESSAGE" value="User Input with Scanners" />
+    <MESSAGE value="GUI Intro" />
+    <option name="LAST_COMMIT_MESSAGE" value="GUI Intro" />
   </component>
 </project>

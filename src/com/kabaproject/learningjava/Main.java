@@ -1,14 +1,12 @@
 package com.kabaproject.learningjava;
 
-import javax.swing.JOptionPane;
-
 public class Main {
     public static void main(String[] args){
-        // GUI intro
-        String name = JOptionPane.showInputDialog("Enter your name");
-        JOptionPane.showMessageDialog(null, "Hello " + name);
+        // Math
+        double x = 3.14, y = -10;
 
-        short age = Short.parseShort(JOptionPane.showInputDialog("Enter your age"));
-        JOptionPane.showMessageDialog(null, "Your " + age);
+        double max = Math.max(x, y);
+
+        System.out.println("The max number between " + x + " and " + y + " is " + max);
     }
 }
