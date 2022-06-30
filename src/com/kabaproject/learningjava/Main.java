@@ -1,12 +1,22 @@
 package com.kabaproject.learningjava;
 
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args){
-        // Math
-        double x = 3.14, y = -10;
+        // Switches
 
-        double max = Math.max(x, y);
+        String month = "January";
+        String message = "This month is";
 
-        System.out.println("The max number between " + x + " and " + y + " is " + max);
+        switch(month){
+            case "January":
+                message += " " + month;
+                break;
+            default:
+                break;
+        }
+
+        System.out.println(message);
     }
 }
