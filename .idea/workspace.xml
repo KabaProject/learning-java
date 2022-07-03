@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81c2bafa-2d30-46a7-a825-e6b7726fa28f" name="Changes" comment="Math Class">
+    <list default="true" id="81c2bafa-2d30-46a7-a825-e6b7726fa28f" name="Changes" comment="Switches">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kabaproject/learningjava/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kabaproject/learningjava/Main.java" afterDir="false" />
     </list>
@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656401165187</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Switches">
+      <created>1656578533911</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656578533911</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +118,7 @@
     <MESSAGE value="User Input with Scanners" />
     <MESSAGE value="GUI Intro" />
     <MESSAGE value="Math Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Math Class" />
+    <MESSAGE value="Switches" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switches" />
   </component>
 </project>
