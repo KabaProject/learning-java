@@ -6,22 +6,30 @@ public class Main {
     public static void main(String[] args){
         // Strings
 
-        String name = "Mario";
+        // Ways of Strings
+        String normal = new String("Normal"); // A normal String, immutable
+        System.out.format("Value -> %s\n", normal);
 
-        boolean[] isEqual = new boolean[2];
-        isEqual[0] = name.equals("Mario"); // Boolean - Checks if it's equals to other string
-        isEqual[1] = name.equalsIgnoreCase("mario"); // Boolean - Checks if it's equals to other string ignoring the case
-        System.out.println(name + " == Mario? " + isEqual[0]);
-        System.out.println(name + " == mario? (IG) " + isEqual[1]);
+        char letter = normal.charAt(3); // Char - Get the letter in the 3nd position
+        System.out.format("Letter at 4th pos -> %s\n", letter);
 
-        int len = name.length(); // Integer - Return the number of letters
-        System.out.println(name + " has " + len + " letters");
+        int index = normal.indexOf('r'); // Int - Get the index of the 1st match
+        System.out.format("Position of r -> %d\n", (index + 1));
 
-        char someChar = name.charAt(3); // Char - Return the letter of the [index] position
-        int index = name.indexOf(someChar); // Int - Return the index of the 1st matched char
-        System.out.println(name + " has a letter " + someChar + " in the position " + (index + 1));
+        String subs = normal.substring(index); // String - Get the substring from index
+        System.out.format("Substring from r -> %s\n", subs);
 
-        boolean is_empty = "".isEmpty();
-        System.out.println("The string \"\" is empty? " + (is_empty ? "Yeah" : "Not"));
+        String concated = normal.concat(" String"); // String - Get the join of 2 strings
+        System.out.format("Concated -> %s\n", concated);
+
+        boolean is_equal = normal.equals("Normal"); // Bool - Check if a string is equal to other
+        System.out.format("Normal is equal to %1$s -> %2$s\n", "Normal", is_equal);
+
+        StringBuffer buffer = new StringBuffer("Buffer"); // A growable and writable char seq
+        buffer.insert(0, "W"); // Can insert
+        buffer.append("o"); // Can append
+        buffer.delete(1, 2); // Can delete
+
+        System.out.format("\n%s\n", buffer);
     }
 }
