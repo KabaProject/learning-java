@@ -12,6 +12,7 @@ public class Eye extends Organ implements PacientOrgan{
         this.color = color;
     }
 
+    @Override
     public void showOptions(){
         Scanner scanner = new Scanner(System.in);
         int option;

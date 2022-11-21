@@ -10,6 +10,7 @@ public class Stomach extends Organ implements PacientOrgan{
         this.isFedeed = isFedeed;
     }
 
+    @Override
     public void showOptions(){
         Scanner scanner = new Scanner(System.in);
         int option;

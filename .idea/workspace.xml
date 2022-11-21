@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81c2bafa-2d30-46a7-a825-e6b7726fa28f" name="Changes" comment="OOP Challenge: Checking a Pacient">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="81c2bafa-2d30-46a7-a825-e6b7726fa28f" name="Changes" comment="Replace origin repository">
+      <change beforePath="$PROJECT_DIR$/src/com/kabaproject/learningjava/Eye.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kabaproject/learningjava/Eye.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669014494720</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="OOP Challenge: Checking a Pacient">
+      <created>1669015500432</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669015500432</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Replace origin repository">
+      <created>1669015535979</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669015535979</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +166,7 @@
     <MESSAGE value="Strings" />
     <MESSAGE value="OOP Basics" />
     <MESSAGE value="OOP Challenge: Checking a Pacient" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP Challenge: Checking a Pacient" />
+    <MESSAGE value="Replace origin repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replace origin repository" />
   </component>
 </project>

@@ -8,6 +8,7 @@ public class Skin extends Organ implements PacientOrgan{
         super(name, condition);
     }
 
+    @Override
     public void showOptions(){
 
     }

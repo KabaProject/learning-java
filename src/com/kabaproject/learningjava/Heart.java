@@ -10,6 +10,7 @@ public class Heart extends Organ implements PacientOrgan{
         this.rate = rate;
     }
 
+    @Override
     public void showOptions(){
         Scanner scanner = new Scanner(System.in);
         int option;
