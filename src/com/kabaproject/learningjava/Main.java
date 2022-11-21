@@ -2,16 +2,29 @@ package com.kabaproject.learningjava;
 
 public class Main {
     public static void main(String[] args){
-        // OOP Challenge
-        Pacient tom = new Pacient("Tom", 26);
-        boolean hasQuit = false;
+        // Concurrency
+        Thread threadOne = new Thread(threadBehavior());
+        Thread threadTwo = new Thread(threadBehavior());
 
-        tom.getInfo();
+        threadOne.start();
+        threadTwo.start();
+    }
 
-        do{
-            if (tom.selectOrgan() == 6){
-                hasQuit = true;
+    public static Runnable threadBehavior (){
+        return new Runnable(){
+            @Override
+            public void run(){
+                for(int x = 1; x <= 10; x++){
+                    System.out.println("Lap number: " + x);
+                    try{
+                        Thread.sleep(1000);
+                    }catch (InterruptedException e){
+                        e.printStackTrace();
+                    }
+                }
             }
-        }while(!hasQuit);
+        };
     }
 }
+
+
