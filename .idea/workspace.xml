@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81c2bafa-2d30-46a7-a825-e6b7726fa28f" name="Changes" comment="Add the @Override annotation for better practices">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kabaproject/learningjava/Eye.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kabaproject/learningjava/Heart.java" beforeDir="false" />
+    <list default="true" id="81c2bafa-2d30-46a7-a825-e6b7726fa28f" name="Changes" comment="Basic of threads">
+      <change afterPath="$PROJECT_DIR$/src/com/kabaproject/learningjava/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kabaproject/learningjava/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kabaproject/learningjava/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kabaproject/learningjava/Organ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kabaproject/learningjava/Pacient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kabaproject/learningjava/PacientOrgan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kabaproject/learningjava/Skin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kabaproject/learningjava/Stomach.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -157,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669016007177</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Basic of threads">
+      <created>1669025328059</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669025328059</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +183,7 @@
     <MESSAGE value="OOP Challenge: Checking a Pacient" />
     <MESSAGE value="Replace origin repository" />
     <MESSAGE value="Add the @Override annotation for better practices" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add the @Override annotation for better practices" />
+    <MESSAGE value="Basic of threads" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic of threads" />
   </component>
 </project>
